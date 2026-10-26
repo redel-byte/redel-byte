@@ -3,9 +3,9 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/redel-byte/CardProfiler">Explore an ML project</a>
+  <a href="https://github.com/redel-byte/EduPredict">Explore an ML project</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/redel-byte/EduPredict">See a prediction app</a>
+  <a href="https://github.com/redel-byte/EasyColoc">See a full-stack app</a>
   &nbsp;·&nbsp;
   <a href="mailto:ridouanelhabib1@gmail.com">Get in touch</a>
 </p>
@@ -24,8 +24,9 @@ I have also built React and Node.js features for an accounting management applic
 
 | Project | What I built | Stack |
 | --- | --- | --- |
-| [CardProfiler](https://github.com/redel-byte/CardProfiler) | Customer segmentation workflow comparing K-means and DBSCAN, with PCA, evaluation, and visual analysis. | Python · pandas · scikit-learn · Streamlit |
 | [EduPredict](https://github.com/redel-byte/EduPredict) | Exam-score regression workflow with preprocessing, model evaluation, and a Streamlit prediction interface. | Python · scikit-learn · Streamlit |
+| [DataStore360](https://github.com/redel-byte/DataStore360) | Retail data pipeline with profiling, transformations, a PostgreSQL schema, and Airflow orchestration. | Python · PostgreSQL · Airflow |
+| [EasyColoc](https://github.com/redel-byte/EasyColoc) | Shared-housing expense manager with invitations, balances, payments, and role-based access. | Laravel · Blade · Tailwind CSS |
 
 ### What I work with
 
@@ -33,7 +34,7 @@ I have also built React and Node.js features for an accounting management applic
 **Web** `React` `JavaScript` `Node.js` `Express` `Laravel`<br/>
 **Data & delivery** `PostgreSQL` `MongoDB` `Docker` `GitHub Actions` `MLflow`
 
-I'm currently deepening my work with **LLM applications, RAG, and reliable model deployment**.
+I'm currently exploring **customer segmentation, LLM applications, RAG, and reliable model deployment**.
 
 ### Let's connect
 
