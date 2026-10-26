@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Elhabib Ridouane — AI development and full-stack web</title>
+  <desc id="desc">An animated line connects data, a model, and an app.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1B2D"/>
+      <stop offset="1" stop-color="#102E3B"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#44D7C7"/>
+      <stop offset="1" stop-color="#95E9BA"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8AC5C4" opacity=".12"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <style>
+    .pulse { animation: pulse 3.6s ease-in-out infinite; transform-origin: center; }
+    .runner { animation: travel 5s ease-in-out infinite; }
+    .cursor { animation: blink 1.1s step-end infinite; }
+    @keyframes pulse { 0%, 100% { opacity: .3; } 50% { opacity: .8; } }
+    @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 8% { opacity: 1; } 88% { opacity: 1; } 100% { transform: translateX(296px); opacity: 0; } }
+    @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .runner, .cursor { animation: none; } .runner { opacity: 0; } }
+  </style>
+
+  <rect width="1200" height="360" rx="26" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
+  <path d="M0 308 C210 230 370 344 575 276 S985 278 1200 184" fill="none" stroke="#3A9B98" stroke-width="1" opacity=".2"/>
+  <circle cx="1085" cy="36" r="175" fill="#35B9B3" opacity=".07"/>
+
+  <rect x="52" y="43" width="222" height="28" rx="14" fill="#173E4A" stroke="#2A8C8A" stroke-width="1"/>
+  <circle cx="68" cy="57" r="4" fill="#59DEC5"/>
+  <text x="82" y="62" fill="#9FE7D7" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">AI × FULL-STACK WEB</text>
+
+  <text x="52" y="134" fill="#F4FAFB" font-family="Arial, sans-serif" font-size="49" font-weight="700">Elhabib Ridouane</text>
+  <text x="54" y="181" fill="#B8D0D5" font-family="Arial, sans-serif" font-size="22">From data experiments to useful products.</text>
+
+  <rect x="52" y="228" width="522" height="76" rx="14" fill="#102936" stroke="#315564" stroke-width="1"/>
+  <circle cx="75" cy="248" r="4" fill="#FA7D76"/>
+  <circle cx="89" cy="248" r="4" fill="#F1C66B"/>
+  <circle cx="103" cy="248" r="4" fill="#62D7AF"/>
+  <text x="73" y="282" fill="#59DEC5" font-family="Consolas, monospace" font-size="19">$</text>
+  <text x="98" y="282" fill="#E3F3F2" font-family="Consolas, monospace" font-size="18">build(model).ship(app)</text>
+  <rect class="cursor" x="345" y="265" width="10" height="21" fill="#59DEC5"/>
+
+  <g transform="translate(660 113)">
+    <path d="M62 76 H358" stroke="url(#flow)" stroke-width="3" stroke-dasharray="7 8" opacity=".66"/>
+    <circle class="runner" cx="62" cy="76" r="11" fill="#5BE2CD" opacity=".45" filter="url(#glow)"/>
+    <circle class="runner" cx="62" cy="76" r="6" fill="#A5FFE0"/>
+
+    <g>
+      <circle class="pulse" cx="62" cy="76" r="45" fill="#2B9B96" opacity=".22"/>
+      <circle cx="62" cy="76" r="35" fill="#123B43" stroke="#59CDBD" stroke-width="2"/>
+      <rect x="46" y="67" width="7" height="18" rx="2" fill="#82E5D0"/>
+      <rect x="57" y="58" width="7" height="27" rx="2" fill="#82E5D0"/>
+      <rect x="68" y="72" width="7" height="13" rx="2" fill="#82E5D0"/>
+      <text x="62" y="144" text-anchor="middle" fill="#D1E7E7" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">DATA</text>
+    </g>
+    <g>
+      <circle class="pulse" cx="210" cy="76" r="45" fill="#2B9B96" opacity=".22" style="animation-delay: .6s"/>
+      <circle cx="210" cy="76" r="35" fill="#123B43" stroke="#59CDBD" stroke-width="2"/>
+      <circle cx="199" cy="67" r="5" fill="#82E5D0"/>
+      <circle cx="221" cy="67" r="5" fill="#82E5D0"/>
+      <circle cx="210" cy="85" r="5" fill="#82E5D0"/>
+      <path d="M203 70 L207 81 M217 70 L213 81 M204 67 H216" stroke="#82E5D0" stroke-width="2"/>
+      <text x="210" y="144" text-anchor="middle" fill="#D1E7E7" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">MODEL</text>
+    </g>
+    <g>
+      <circle class="pulse" cx="358" cy="76" r="45" fill="#2B9B96" opacity=".22" style="animation-delay: 1.2s"/>
+      <circle cx="358" cy="76" r="35" fill="#123B43" stroke="#59CDBD" stroke-width="2"/>
+      <rect x="342" y="61" width="32" height="27" rx="3" fill="none" stroke="#82E5D0" stroke-width="2"/>
+      <path d="M343 69 H373 M348 79 H359" stroke="#82E5D0" stroke-width="2"/>
+      <text x="358" y="144" text-anchor="middle" fill="#D1E7E7" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">APP</text>
+    </g>
+  </g>
+</svg>
