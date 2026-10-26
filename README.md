@@ -3,9 +3,9 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/redel-byte/EduPredict">Explore an ML project</a>
+  <a href="https://github.com/redel-byte/Introduction_to_deeplearning">Explore NeuroVision AI</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/redel-byte/EasyColoc">See a full-stack app</a>
+  <a href="https://github.com/redel-byte/EduPredict">See a prediction app</a>
   &nbsp;·&nbsp;
   <a href="mailto:ridouanelhabib1@gmail.com">Get in touch</a>
 </p>
@@ -24,17 +24,17 @@ I have also built React and Node.js features for an accounting management applic
 
 | Project | What I built | Stack |
 | --- | --- | --- |
+| [NeuroVision AI](https://github.com/redel-byte/Introduction_to_deeplearning) | Educational brain MRI classification prototype with image preprocessing, a CNN training workflow, evaluation tools, Grad-CAM, tests, and a Streamlit demo. **Not for medical diagnosis.** | Python · TensorFlow/Keras · OpenCV · Streamlit |
 | [EduPredict](https://github.com/redel-byte/EduPredict) | Exam-score regression workflow with preprocessing, model evaluation, and a Streamlit prediction interface. | Python · scikit-learn · Streamlit |
 | [DataStore360](https://github.com/redel-byte/DataStore360) | Retail data pipeline with profiling, transformations, a PostgreSQL schema, and Airflow orchestration. | Python · PostgreSQL · Airflow |
-| [EasyColoc](https://github.com/redel-byte/EasyColoc) | Shared-housing expense manager with invitations, balances, payments, and role-based access. | Laravel · Blade · Tailwind CSS |
 
 ### What I work with
 
-**AI & data** `Python` `pandas` `NumPy` `scikit-learn` `PyTorch` `Streamlit`<br/>
+**AI & data** `Python` `pandas` `scikit-learn` `TensorFlow` `Keras` `OpenCV` `PyTorch` `Streamlit`<br/>
 **Web** `React` `JavaScript` `Node.js` `Express` `Laravel`<br/>
 **Data & delivery** `PostgreSQL` `MongoDB` `Docker` `GitHub Actions` `MLflow`
 
-I'm currently exploring **customer segmentation, LLM applications, RAG, and reliable model deployment**.
+I'm currently exploring **computer vision, LLM applications, RAG, and reliable model deployment**.
 
 ### Let's connect
 
