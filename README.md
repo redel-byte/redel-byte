@@ -10,7 +10,7 @@
   <a href="mailto:ridouanelhabib1@gmail.com">Get in touch</a>
 </p>
 
-### Hey, I'm Elhabib 👋
+### Hey, I'm Elhabib 
 
 I'm an **AI development student at YouCode** and a **full-stack web developer** based in Morocco. I like working across the whole path from raw data and model experiments to an interface someone can actually use.
 
